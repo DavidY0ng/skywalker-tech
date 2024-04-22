@@ -4,7 +4,7 @@
     import WhyChooseUs from "./section/WhyChooseUs.svelte";
 </script>
 
-<div class="bg-surface-500 lg:pt-[120px] pt-[350px]">
+<div class="bg-surface-500 lg:pt-[120px] pt-[350px] pb-[100px]">
     <div class="mb-10 text-center">
         <div class="flex justify-center mb-10">
             <CircleHeader>WORK FLOW</CircleHeader>

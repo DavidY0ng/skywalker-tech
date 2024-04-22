@@ -6,11 +6,13 @@
 
     let node:any
 </script>
-<IntersectionObserver element={node} let:intersecting once>
-    <div bind:this={node} class="bg-transparent flex pt-[150px] px-[50px]">
+
+    <div  class="bg-transparent flex pt-[150px] px-[50px]">
         <div class="flex max-w-[1800px] mx-auto">
-            {#if intersecting}
-            <div class="flex flex-col items-center justify-center w-full md:flex-row p-15">
+            <IntersectionObserver element={node} let:intersecting once>
+           
+            <div bind:this={node} class="flex flex-col items-center justify-center w-full md:flex-row p-15">
+                {#if intersecting}
                 <div transition:fly={{ x: -80, duration: 700, delay: 600 }} class="h-[550px] w-full lg:flex items-center justify-center hidden">
                     <img src="/assets/img/work_flow/why_choose_us/document_img.png" alt="pic1" class="lg:h-[550px]">
                 </div>
@@ -47,14 +49,19 @@
                     <div transition:fly={{ x: -80, duration: 700, delay: 600 }} class="flex items-center justify-center w-full lg:flex lg:hidden">
                         <img src="/assets/img/work_flow/why_choose_us/document_img.png" alt="pic1" class="lg:h-[550px]">
                     </div>
+                    
                 </div>
-                
+                {:else}
+                <div class="h-[700px]"></div>
+           {/if}
             </div>
-            {/if}
+            
+        </IntersectionObserver>
+     
             
     
             
         </div>
     
     </div>
-</IntersectionObserver>
+

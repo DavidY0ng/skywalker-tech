@@ -28,8 +28,10 @@
    <div id="key-features">
         <WhatWeDo />
    </div>
+    <div id="workflow">
+        <WorkFlow />
+    </div>
     
-    <WorkFlow />
     <div id="contact">
         <Contact />
     </div>

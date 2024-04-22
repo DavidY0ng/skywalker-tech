@@ -15,6 +15,7 @@
 	function scrollToSectionHandler(id) {
 		scrollToSection.set(id);
 	}
+
 </script>
 
 <div class="fixed w-full bg-surface-500">
@@ -63,6 +64,13 @@
 						on:click|preventDefault={() => scrollToSectionHandler('key-features')}
 					>
 						Key Features
+					</a> -->
+					<!-- <a
+						href="/#contact"
+						class="hover-underline-animation"
+						on:click|preventDefault={() => scrollToSectionHandler('contact')}
+					>
+						Contact
 					</a> -->
 					<a
 						href="/#contact"

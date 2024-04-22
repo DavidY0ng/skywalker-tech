@@ -32,7 +32,7 @@
 				{#if index % 2 === 0}
 					<!-- bottom content -->
 					{#if intersecting}
-						<div transition:fly={{ y: 80, duration: 700, delay: 300 }} class="relative w-[1500px]">
+						<div transition:fly={{ x: -80, duration: 700, delay: 200 * index }} class="relative w-[1500px]">
 							<div class="absolute left-0 top-[50%] -translate-y-[50%]">
 								<CircleLine position="top" circleColor={content.bgColor} />
 							</div>
@@ -47,11 +47,15 @@
 								</div>
 							</div>
 						</div>
+					<!-- {:else}
+						<div class="h-[500px]">
+
+						</div> -->
 					{/if}
 				{:else}
 					<!-- top content -->
 					{#if intersecting}
-						<div transition:fly={{ y: -80, duration: 700, delay: 300 }} class="relative w-[1500px]">
+						<div transition:fly={{ x: -80, duration: 700, delay: 200 * index }} class="relative w-[1500px]">
 							<div class="absolute left-0 bottom-[50%] translate-y-[50%]">
 								<CircleLine position="bottom" circleColor={content.bgColor} />
 							</div>
@@ -66,6 +70,10 @@
 								</div>
 							</div>
 						</div>
+						<!-- {:else}
+						<div class="h-[500px]">
+
+						</div> -->
 					{/if}
 				{/if}
 			{/each}
