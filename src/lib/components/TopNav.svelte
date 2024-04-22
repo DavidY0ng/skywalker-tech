@@ -51,7 +51,7 @@
 					<a href="/about-us#introduction" class="hover-underline-animation"> About Us </a>
 					<Menu>
 						<span slot='toggle'>Key Features</span>
-						<div class="flex flex-col variant-glass-primary rounded-xl">
+						<div class="flex flex-col variant-glass-secondary rounded-xl">
 							<MenuItem><a href="/what-we-do/defi-&-smart-contract#introduction" class="hover-underline-animation">Defi & Smart Contract</a></MenuItem>
 							<MenuItem><a href="/what-we-do/crypto-exchange#introduction" class="hover-underline-animation">Crypto Exchange</a></MenuItem>
 							<MenuItem><a href="/what-we-do/nft#introduction" class="hover-underline-animation">NFT</a></MenuItem>

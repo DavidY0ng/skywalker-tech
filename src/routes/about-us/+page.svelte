@@ -6,14 +6,14 @@
     import { scrollToSection } from '$lib/store/store';
 
     $: scrollToSection.subscribe((value) => {
-    if (value) {
-        const element = document.querySelector(`#${value}`);
-        if (element) {
-            element.scrollIntoView({ behavior: 'smooth' });
-            scrollToSection.set(null);
+        if (value) {
+            const element = document.querySelector(`#${value}`);
+            if (element) {
+                element.scrollIntoView({ behavior: 'smooth' });
+                scrollToSection.set(null);
+            }
         }
-    }
-});
+    });
 </script>
 
 
