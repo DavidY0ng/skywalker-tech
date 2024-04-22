@@ -1,11 +1,9 @@
-<li class="">
+<li class="px-5 py-2">
     <slot />
 </li>
 
 <style>
   li {
-
-    padding: 1rem;
 
   }
 

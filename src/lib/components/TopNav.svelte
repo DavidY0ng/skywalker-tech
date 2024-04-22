@@ -7,15 +7,19 @@
 	import MenuItem from './dropdown/MenuItem.svelte';
 
 	let isExpanded = false;
+	let featureExpand = false;
 
 	function onExpandMenu() {
 		isExpanded = !isExpanded;
 	}
 
+	function keyFeaturesExpand() {
+		featureExpand = !featureExpand;
+	}
+
 	function scrollToSectionHandler(id) {
 		scrollToSection.set(id);
 	}
-
 </script>
 
 <div class="fixed w-full bg-surface-500">
@@ -50,13 +54,25 @@
 					</a> -->
 					<a href="/about-us#introduction" class="hover-underline-animation"> About Us </a>
 					<Menu>
-						<span slot='toggle'>Key Features</span>
+						<span slot="toggle">Key Features</span>
 						<div class="flex flex-col variant-glass-secondary rounded-xl">
-							<MenuItem><a href="/what-we-do/defi-&-smart-contract#introduction" class="hover-underline-animation">Defi & Smart Contract</a></MenuItem>
-							<MenuItem><a href="/what-we-do/crypto-exchange#introduction" class="hover-underline-animation">Crypto Exchange</a></MenuItem>
-							<MenuItem><a href="/what-we-do/nft#introduction" class="hover-underline-animation">NFT</a></MenuItem>
+							<MenuItem
+								><a
+									href="/what-we-do/defi-&-smart-contract#introduction"
+									class="hover-underline-animation">Defi & Smart Contract</a
+								></MenuItem
+							>
+							<MenuItem
+								><a
+									href="/what-we-do/crypto-exchange#introduction"
+									class="hover-underline-animation">Crypto Exchange</a
+								></MenuItem
+							>
+							<MenuItem
+								><a href="/what-we-do/nft#introduction" class="hover-underline-animation">NFT</a
+								></MenuItem
+							>
 						</div>
-						
 					</Menu>
 					<!-- <a
 						href="/#key-features"
@@ -64,13 +80,6 @@
 						on:click|preventDefault={() => scrollToSectionHandler('key-features')}
 					>
 						Key Features
-					</a> -->
-					<!-- <a
-						href="/#contact"
-						class="hover-underline-animation"
-						on:click|preventDefault={() => scrollToSectionHandler('contact')}
-					>
-						Contact
 					</a> -->
 					<a
 						href="/#contact"
@@ -84,14 +93,27 @@
 				{#if isExpanded}
 					<div
 						transition:slide
-						class="absolute top-[80%] right-[6%] flex flex-col p-5 rounded-lg variant-glass-secondary h5 z-10 gap-5 px-9"
+						class="absolute top-[80%] right-[6%] flex flex-col p-5 rounded-lg variant-glass-secondary h5 z-10 gap-5 px-[20px] items-start w-[220px]"
 					>
-						<button on:click|preventDefault={() => scrollToSectionHandler('key-features')}
-							>Key Features</button
+						<button class="flex items-center gap-2" on:click={keyFeaturesExpand}
+							>Key Features <span
+								><Icon
+									icon="bxs:down-arrow"
+									width="0.8em"
+									height="0.8em"
+									class={featureExpand ? 'rotate-180' : ''}
+								/></span
+							></button
 						>
-						<button on:click|preventDefault={() => scrollToSectionHandler('about-us')}
-							>About Us</button
-						>
+						{#if featureExpand}
+							<div transition:slide class="flex flex-col pl-5 gap-y-2">
+								<a href="/what-we-do/defi-&-smart-contract#introduction"> Defi & Smart Contract </a>
+								<a href="/what-we-do/crypto-exchange#introduction"> Crypto Exchange </a>
+								<a href="/what-we-do/nft#introduction"> NFT </a>
+							</div>
+						{/if}
+
+						<a href="/about-us#introduction">About Us</a>
 						<button on:click|preventDefault={() => scrollToSectionHandler('contact')}
 							>Contact</button
 						>

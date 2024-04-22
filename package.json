@@ -37,6 +37,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"svelte-intersection-observer": "^1.0.0"
+		"svelte-intersection-observer": "^1.0.0",
+		"svelte-loading-spinners": "^0.3.6"
 	}
 }

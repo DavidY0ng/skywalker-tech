@@ -24,7 +24,7 @@
 					</div>
 
 					<div transition:fly={{ y: -80, duration: 700, delay: 1000 }} class="text-white h2 neon-text">
-						Empowering Your Digital Journey with cutting-Edge Web3 Solution
+						Empowering Your Digital Journey with Cutting-Edge Web3 Solution
 					</div>
 				</div>
 			</div>
