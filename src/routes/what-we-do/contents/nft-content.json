@@ -1,0 +1,30 @@
+[
+    {
+        "title": "NFT Marketplace Development",
+        "coloredTitle": "NFT Marketplace",
+        "uncoloredTitle": "Development",
+        "pic": "1",
+        "description": "Our NFT platform prioritizes security and user experience, providing a safe space for digital art collectors and creators to connect, trade, and showcase unique artwork seamlessly, offering endless possibilities in the digital realm."
+    },
+    {
+        "title": "NFT Minting Services",
+        "coloredTitle": "NFT Minting",
+        "uncoloredTitle": "Services",
+        "pic": "2",
+        "description": "Create unique NFTs easily with our streamlined minting process, ensuring authenticity and immutability on blockchain networks. Our expert team guides you through token creation to deployment for a seamless experience."
+    },
+    {
+        "title": "NFT Staking Platform",
+        "coloredTitle": "NFT Staking",
+        "uncoloredTitle": "Platform",
+        "pic": "3",
+        "description": "Maximize NFT value by incentivizing holders to stake tokens, fostering liquidity and community engagement. Our platform offers seamless staking processes and attractive rewards, empowering users to actively participate in the growth of your NFT ecosystem."
+    },
+    {
+        "title": "NFT Tokenization Platform",
+        "coloredTitle": "NFT Tokenization",
+        "uncoloredTitle": "Platform",
+        "pic": "4",
+        "description": "Develop platforms for tokenizing real-world assets into NFTs. Enable fractional ownership, liquidity, and transferability for a wide range of assets, from art to real estate."
+    }
+]

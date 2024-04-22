@@ -1,0 +1,50 @@
+[
+    {
+        "id": "1",
+        "title": "Requirement Analysis",
+        "description": "We define project scope by analyzing client needs for clear objectives and deliverables.",
+        "bgColor": "primary"
+    },
+    {
+        "id": "2",
+        "title": "Research and Planning",
+        "description": "We research, evaluate, and plan projects for efficient execution and resource use.",
+        "bgColor": "red"
+    },
+    {
+        "id": "3",
+        "title": "Design and Architecture",
+        "description": "We prioritize user experience and scalability in interface design and system architecture.",
+        "bgColor": "orange"
+    },
+    {
+        "id": "4",
+        "title": " Development",
+        "description": "Developers prioritize collaboration, agile methods for high-quality, scalable solutions.",
+        "bgColor": "green"
+    },
+    {
+        "id": "5",
+        "title": "Quality Assurance",
+        "description": "Testing ensures reliability, fixing defects to meet requirements before deployment.",
+        "bgColor": "blue"
+    },
+    {
+        "id": "6",
+        "title": "Deployment",
+        "description": "Smooth deployment ensured via testing in production for functionality, performance validation.",
+        "bgColor": "orange"
+    },
+    {
+        "id": "7",
+        "title": "Maintenance and Support",
+        "description": "We offer ongoing maintenance, promptly addressing issues to maximize software value.",
+        "bgColor": "red"
+    },
+    {
+        "id": "8",
+        "title": "Optimization and Evolution",
+        "description": "Continuous optimization ensures competitive software aligned with evolving business needs.",
+        "bgColor": "primary"
+    }
+]

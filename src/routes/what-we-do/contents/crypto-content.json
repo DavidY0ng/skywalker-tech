@@ -1,0 +1,38 @@
+[
+    {
+        "title": "Decentralized Exchange Development",
+        "coloredTitle": "Decentralized Exchange",
+        "uncoloredTitle": "Development",
+        "pic": "1",
+        "description": "Trade securely without intermediaries. Our DEX platforms prioritize security and transparency for seamless cryptocurrency transactions."
+        
+    },
+    {
+        "title": "Centralized Exchange Development",
+        "coloredTitle": "Centralized Exchange",
+        "uncoloredTitle": "Development",
+        "pic": "2",
+        "description": "Buy, sell, and trade cryptocurrencies on our CEX platforms. High liquidity and top-notch security guaranteed for hassle-free trading."
+    },
+    {
+        "title": "P2P Exchange Development",
+        "coloredTitle": "P2P Exchange",
+        "uncoloredTitle": "Development",
+        "pic": "3",
+        "description": "Direct cryptocurrency trading between users. Secure transactions with intuitive interfaces and escrow mechanisms for seamless peer-to-peer trading experiences."
+    },
+    {
+        "title": "Token Development",
+        "coloredTitle": "Token",
+        "uncoloredTitle": "Development",
+        "pic": "4",
+        "description": "Create custom tokens for your exchange or tokenization projects, ensuring compliance and security for your digital assets."
+    },
+    {
+        "title": "Trading Bot Development",
+        "coloredTitle": "Trading Bot",
+        "uncoloredTitle": "Development",
+        "pic": "5",
+        "description": "Automate trading strategies to enhance liquidity and efficiency on your exchange platform, optimizing trading performance for better results."
+    }
+]

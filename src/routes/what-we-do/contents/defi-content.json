@@ -1,0 +1,44 @@
+[
+    {
+        "title": "Smart Contract Development",
+        "coloredTitle": "Smart Contract",
+        "uncoloredTitle": "Development",
+        "pic": "1",
+        "description": "Our team specializes in the development of secure and efficient smart contracts tailored to your specific needs. Whether you're launching a new token or implementing automated business processes, we have the expertise to bring your ideas to life."
+    },
+    {
+        "title": "GameFi Development",
+        "coloredTitle": "GameFi",
+        "uncoloredTitle": "Development",
+        "pic": "2",
+        "description": "Dive into the world of decentralized gaming with our GameFi development services. We integrate gaming elements with DeFi principles to create immersive experiences for users."
+    },
+    {
+        "title": "ICO Development",
+        "coloredTitle": "ICO",
+        "uncoloredTitle": "Development",
+        "pic": "3",
+        "description": "Planning to launch an Initial Coin Offering (ICO)? Trust our team to develop secure smart contracts and launch your token sale with confidence."
+    },
+    {
+        "title": "Launchpad Development",
+        "coloredTitle": "Launchpad",
+        "uncoloredTitle": "Development",
+        "pic": "4",
+        "description": "Our launchpad development services enable you to launch new blockchain projects with ease. We provide end-to-end solutions to support the successful launch of your project."
+    },
+    {
+        "title": "Stable Coin Development",
+        "coloredTitle": "Stable Coin",
+        "uncoloredTitle": "Development",
+        "pic": "5",
+        "description": "Stable coins are an essential part of the DeFi ecosystem. We specialize in the development of stable coins pegged to various assets, providing stability and reliability to users."
+    },
+    {
+        "title": "Meme Coin Development",
+        "coloredTitle": "Meme Coin",
+        "uncoloredTitle": "Development",
+        "pic": "6",
+        "description": "Looking to create a meme-inspired cryptocurrency? Our team can help you design and deploy meme coins that capture the attention of the crypto community."
+    }
+]
