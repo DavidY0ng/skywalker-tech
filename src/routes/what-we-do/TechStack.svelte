@@ -13,7 +13,7 @@
 					</div>
 				</div>
 
-				<div class="w-full overflow-x-auto overflow-x-scroll lg:overflow-hidden ">
+				<div class="w-full overflow-x-auto lg:overflow-hidden ">
 					<div class="w-[50px] md:w-full px-[30px]"> 
 
 						<div
