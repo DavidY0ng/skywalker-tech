@@ -3,21 +3,21 @@
 	import CircleHeader from '$lib/components/CircleHeader.svelte';
 
 	let contents = [
-		{
-			icon: 'ic:baseline-email',
-			info: 'sky@gmail.com',
-			borderColor: 'border-orange-500',
-            textColor: 'text-orange-500'
-		},
-		{
-			icon: 'carbon:phone-filled',
-			info: '+603-4810247',
-			borderColor: 'border-red-500',
-            textColor: 'text-red-500'
-		},
+		// {
+		// 	icon: 'ic:baseline-email',
+		// 	info: 'sky@gmail.com',
+		// 	borderColor: 'border-orange-500',
+        //     textColor: 'text-orange-500'
+		// },
+		// {
+		// 	icon: 'carbon:phone-filled',
+		// 	info: '+603-4810247',
+		// 	borderColor: 'border-red-500',
+        //     textColor: 'text-red-500'
+		// },
 		{
 			icon: 'mdi:location',
-			info: 'Scott Garden, KL',
+			info: 'Wisma Center, 147, Unit 72, Level 5, Jalan Ampang, Kuala Lumpur City Center, 50450, Kuala Lumpur, Malaysia',
 			borderColor: 'border-primary-500',
             textColor: 'text-primary-500'
 		}
@@ -51,11 +51,6 @@
 							<div class="text-white h3">
 								{content.info}
 							</div>
-						</div>
-						<div class="items-center hidden -translate-y-5 lg:flex">
-							{#if index !== contents.length - 1}
-								<img src="/assets/img/contact/line.png" alt="line" />
-							{/if}
 						</div>
 					{/each}
 				</div>
